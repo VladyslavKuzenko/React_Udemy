@@ -9,6 +9,7 @@ export default function UserInput({ setAnnualData }) {
   const [duration, setDuration] = useState(0);
 
   function handleChangeInitialInvestment(even) {
+    
     setInitialInvestment(Number(even.target.value));
   }
   function handleChangeAnnualInvestment(even) {
